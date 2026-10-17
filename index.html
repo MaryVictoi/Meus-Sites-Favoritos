@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Define a codificação de caracteres UTF-8 -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Requisito: Título na aba do navegador -->
+    <title>Meus sites favoritos</title>
+    <style>
+        /* Estilização geral */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        /* Estilização do Cabeçalho */
+        header {
+            background-color: #1e293b;
+            color: #ffffff;
+            padding: 20px 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            margin-bottom: 30px;
+        }
+        header h1 {
+            margin: 0 0 5px 0;
+            font-size: 26px;
+        }
+        header p {
+            margin: 0;
+            font-size: 14px;
+            color: #cbd5e1;
+        }
+
+        /* Container principal do conteúdo */
+        .container {
+            max-width: 800px;
+            margin: 0 auto 40px auto;
+            background: #ffffff;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        /* Cartão de cada site */
+        .site-card {
+            margin-bottom: 35px;
+            padding-bottom: 25px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        .site-card:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        .site-card h1 {
+            color: #0f172a;
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+
+        /* Estilização das Imagens */
+        img {
+            max-width: 100%;
+            height: auto;
+            max-height: 350px;
+            border-radius: 6px;
+            border: 1px solid #cbd5e1;
+            margin: 15px 0;
+            transition: transform 0.2s ease-in-out;
+        }
+        img:hover {
+            transform: scale(1.02);
+        }
+
+        /* Estilização dos Links */
+        a {
+            color: #2563eb;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- CABEÇALHO DA PÁGINA -->
+    <header>
+        <!-- Requisito: Título do corpo da página -->
+        <h1>Meus sites favoritos: Maria Vitória Moraes</h1>
+        <p>Desenvolvimento de Sistemas I - Agenda 12</p>
+    </header>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main class="container">
+
+        <!-- ITEM 1: Stripe -->
+        <div class="site-card">
+            <!-- Requisito: Nome do site acima da imagem (tag <h1>) -->
+            <h1>1. Stripe</h1>
+            <!-- Requisito Opcional: Link na imagem -->
+            <a href="https://stripe.com/br" target="_blank">
+                <!-- Imagem configurada com o nome do arquivo enviado -->
+                <img src="image_233d05.jpg" alt="Captura do site Stripe">
+            </a>
+            <!-- Requisito: Link abaixo da imagem -->
+            <p><a href="https://stripe.com/br" target="_blank">Acessar Stripe</a></p>
+        </div>
+
+        <!-- ITEM 2: Duolingo -->
+        <div class="site-card">
+            <h1>2. Duolingo</h1>
+            <a href="https://pt.duolingo.com" target="_blank">
+                <img src="image_233d22.png" alt="Captura do site Duolingo">
+            </a>
+            <p><a href="https://pt.duolingo.com" target="_blank">Acessar Duolingo</a></p>
+        </div>
+
+        <!-- ITEM 3: DIO -->
+        <div class="site-card">
+            <h1>3. DIO (Digital Innovation One)</h1>
+            <a href="https://dio.me" target="_blank">
+                <img src="image_233d42.jpg" alt="Captura do site DIO">
+            </a>
+            <p><a href="https://dio.me" target="_blank">Acessar DIO</a></p>
+        </div>
+
+        <!-- ITEM 4: Pinterest -->
+        <div class="site-card">
+            <h1>4. Pinterest</h1>
+            <a href="https://br.pinterest.com" target="_blank">
+                <img src="image_233d48.jpg" alt="Captura do site Pinterest">
+            </a>
+            <p><a href="https://br.pinterest.com" target="_blank">Acessar Pinterest</a></p>
+        </div>
+
+        <!-- ITEM 5: UI Layouts (GitHub) -->
+        <div class="site-card">
+            <h1>5. UI Layouts (GitHub)</h1>
+            <a href="https://github.com/ui-layouts/uilayouts" target="_blank">
+                <img src="image_233d64.jpg" alt="Captura do repositório UI Layouts">
+            </a>
+            <p><a href="https://github.com/ui-layouts/uilayouts" target="_blank">Acessar UI Layouts no GitHub</a></p>
+        </div>
+
+    </main>
+
+</body>
+</html>
